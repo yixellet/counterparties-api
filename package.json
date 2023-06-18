@@ -1,0 +1,26 @@
+{
+  "name": "counterparties-api",
+  "version": "0.0.1",
+  "description": "Counterparties manager API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Kirill Kotelevsky",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-winston": "^4.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "pg-promise": "^11.5.0",
+    "uuid": "^9.0.0",
+    "winston": "^3.9.0"
+  }
+}
